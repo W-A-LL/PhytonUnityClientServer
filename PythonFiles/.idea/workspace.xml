@@ -1,7 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c5c0b29-b590-4681-8931-3e4992d4ae31" name="Default Changelist" comment="" />
+    <list default="true" id="9c5c0b29-b590-4681-8931-3e4992d4ae31" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/.vs/UnityProject/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/.vs/UnityProject/v15/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/.vs/UnityProject/v15/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/.vs/UnityProject/v15/Server/sqlite3/storage.ide" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Assets/NetMQExample/Scenes/SampleSceneWorld.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Assets/NetMQExample/Scenes/SampleSceneWorld.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Assets/NetMQExample/Scripts/Actions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Assets/NetMQExample/Scripts/Actions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Assets/NetMQExample/Scripts/WorldServer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Assets/NetMQExample/Scripts/WorldServer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Assets/testImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Assets/testImage.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Assets/testImage3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Assets/testImage3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Assets/testImage4.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Assets/testImage4.bmp.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/APIUpdater/project-dependencies.graph" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Library/APIUpdater/project-dependencies.graph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Library/CurrentLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/Unity.TextMeshPro.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/Unity.TextMeshPro.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/Unity.Timeline.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/Unity.Timeline.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/UnityEditor.SpatialTracking.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/UnityEditor.SpatialTracking.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/UnityEngine.SpatialTracking.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/UnityEngine.SpatialTracking.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/StateCache/Hierarchy/db1bb5-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Library/StateCache/Hierarchy/db1bb5-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/StateCache/SceneView/e34ed7-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Library/StateCache/SceneView/e34ed7-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/metadata/15/15ed58c962ef61346bfd61a87b6e841f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/metadata/15/15ed58c962ef61346bfd61a87b6e841f.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/metadata/52/525dc8762c3d90e4589254a5d3805f34" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/metadata/52/525dc8762c3d90e4589254a5d3805f34.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/metadata/54/5441e1d56fe1a5847b6477c048f00a0b" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Library/metadata/54/5441e1d56fe1a5847b6477c048f00a0b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/metadata/5d/5db71f22363d8034ca4b795efb81f3dc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/metadata/5d/5db71f22363d8034ca4b795efb81f3dc.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/metadata/87/874fe73efe704c1e8b685a1a34aeb877" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Library/metadata/87/874fe73efe704c1e8b685a1a34aeb877" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/metadata/89/89f4524c09949d54eaea12f65e330712" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Library/metadata/89/89f4524c09949d54eaea12f65e330712" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/metadata/a9/a9f1f5f9970743f9a5870e2b4c2dc098" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Library/metadata/a9/a9f1f5f9970743f9a5870e2b4c2dc098" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Library/metadata/e8/e897de29c30c9ea4b8ec52c74328904a" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Library/metadata/e8/e897de29c30c9ea4b8ec52c74328904a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/ProjectSettings/XRSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/ProjectSettings/XRSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Unity.Analytics.DataPrivacy.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Unity.Analytics.DataPrivacy.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Unity.CollabProxy.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Unity.CollabProxy.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Unity.PackageManagerUI.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Unity.PackageManagerUI.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Unity.TextMeshPro.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Unity.TextMeshPro.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Unity.TextMeshPro.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Unity.TextMeshPro.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Unity.Timeline.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Unity.Timeline.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/Unity.Timeline.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/Unity.Timeline.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/UnityEditor.SpatialTracking.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/UnityEditor.SpatialTracking.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/UnityEditor.XR.LegacyInputHelpers.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/UnityEditor.XR.LegacyInputHelpers.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/UnityEngine.SpatialTracking.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/UnityEngine.SpatialTracking.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/UnityEngine.XR.LegacyInputHelpers.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/UnityEngine.XR.LegacyInputHelpers.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/UnityProject.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/UnityProject.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/com.unity.multiplayer-hlapi.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/com.unity.multiplayer-hlapi.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/com.unity.multiplayer-hlapi.Runtime.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/com.unity.multiplayer-hlapi.Runtime.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject/com.unity.multiplayer-weaver.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject/com.unity.multiplayer-weaver.Editor.csproj" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,11 +88,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="583">
+            <state relative-caret-position="226">
               <caret line="78" column="24" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
-              <folding>
-                <element signature="e#56#66#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -30,6 +102,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -44,11 +119,13 @@
     <option name="width" value="498" />
     <option name="height" value="424" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -60,10 +137,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
@@ -169,7 +246,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19915701" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19915701" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -219,21 +296,11 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../UnityPythonZeroMQ/Python/client.py" />
-    <entry file="file://$PROJECT_DIR$/../../../UnityPythonZeroMQ/Python/server.py" />
-    <entry file="file://$PROJECT_DIR$/../../../UnityPhytonZeroMQ2_modif/Unity3D-Python-Communication-master/PythonFiles/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="25" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../UnityPythonZeroMQ1/Python/server.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../UnityPythonZeroMQ1/Python/client.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://D:/UnityPythonZeroMQ/Python/client.py" />
+    <entry file="file://D:/UnityPythonZeroMQ/Python/server.py" />
+    <entry file="file://D:/UnityPhytonZeroMQ2_modif/Unity3D-Python-Communication-master/PythonFiles/client.py" />
+    <entry file="file://D:/UnityPythonZeroMQ1/Python/server.py" />
+    <entry file="file://D:/UnityPythonZeroMQ1/Python/client.py" />
     <entry file="file://$PROJECT_DIR$/server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -241,9 +308,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client_old.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/client_old.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/random.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -274,11 +339,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
+        <state relative-caret-position="226">
           <caret line="78" column="24" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
-          <folding>
-            <element signature="e#56#66#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

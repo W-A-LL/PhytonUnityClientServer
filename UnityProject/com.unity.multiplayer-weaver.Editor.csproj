@@ -248,16 +248,16 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil">
-      <HintPath>D:/Desenvolupament/UnityPhytonZeroMQ4/Unity3D-Python-Communication-master/UnityProject/Library/PackageCache/nuget.mono-cecil@0.1.5-preview/Mono.Cecil.dll</HintPath>
+      <HintPath>D:/GitHub/Unity3DPythonZeroMQ/UnityProject/Library/PackageCache/nuget.mono-cecil@0.1.5-preview/Mono.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil.Mdb">
-      <HintPath>D:/Desenvolupament/UnityPhytonZeroMQ4/Unity3D-Python-Communication-master/UnityProject/Library/PackageCache/nuget.mono-cecil@0.1.5-preview/Mono.Cecil.Mdb.dll</HintPath>
+      <HintPath>D:/GitHub/Unity3DPythonZeroMQ/UnityProject/Library/PackageCache/nuget.mono-cecil@0.1.5-preview/Mono.Cecil.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil.Pdb">
-      <HintPath>D:/Desenvolupament/UnityPhytonZeroMQ4/Unity3D-Python-Communication-master/UnityProject/Library/PackageCache/nuget.mono-cecil@0.1.5-preview/Mono.Cecil.Pdb.dll</HintPath>
+      <HintPath>D:/GitHub/Unity3DPythonZeroMQ/UnityProject/Library/PackageCache/nuget.mono-cecil@0.1.5-preview/Mono.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil.Rocks">
-      <HintPath>D:/Desenvolupament/UnityPhytonZeroMQ4/Unity3D-Python-Communication-master/UnityProject/Library/PackageCache/nuget.mono-cecil@0.1.5-preview/Mono.Cecil.Rocks.dll</HintPath>
+      <HintPath>D:/GitHub/Unity3DPythonZeroMQ/UnityProject/Library/PackageCache/nuget.mono-cecil@0.1.5-preview/Mono.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:\Program Files\Unity2019_1_1f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>

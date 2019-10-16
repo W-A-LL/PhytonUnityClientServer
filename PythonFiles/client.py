@@ -26,11 +26,28 @@ nextinstruction = True
 messagesend = ""
 
 
+
+def fun_GetAction():
+
+    # accions possibles:
+    # moveworld x y z
+    # moveself x y z
+    # rotateworld x y z
+    # wait i
+
+    # creem una accio de moure en una posicio aleatoria del mon entre [-1 -1 -1] i [1 1 1]
+    action = "moveworld " + str(random.uniform(-1.0, 1.0)) + " " + str(random.uniform(-1.0, 1.0)) + " " + str(random.uniform(-1.0, 1.0))
+    return action
+
+
+
+
+
 while True:
 
     # preparar la instruccio a enviar
     if nextinstruction:
-        messagesend = "move " + str(random.uniform(-1.0, 1.0)) + " " + str(random.uniform(-1.0, 1.0)) + " " + str(random.uniform(-1.0, 1.0))
+        messagesend = fun_GetAction()
     print("Sending request… " + messagesend)
 
     # enviar
@@ -46,9 +63,17 @@ while True:
     messagerecv = json_string.decode('utf-8')
     print("Recieving… " + messagerecv)
 
+
     # crear el diccionari
     feedbackInfo = eval(messagerecv)
 
+    # JSON fields
+    # int appResult;           //0 1
+    # string appState;         //busy done
+    # string screenshotData;   //data base 64
+    # string screenshotMode;   //RGB24 RGBA32
+    # int screenshotWidth;
+    # int screenshotHeight;
 
     # mirar l'estat que diu si esta ocupat, si no ho està
     if feedbackInfo['appState']!='Busy':
@@ -69,10 +94,10 @@ while True:
 
             # dades de la imatge
             strscreenshot = feedbackInfo['screenshotData']
-            image_data = base64.b64decode(strscreenshot);
+            imdata = base64.b64decode(strscreenshot);
 
             # mostrem la imatge
-            image = Image.frombytes(immode, (imwidth,imheight), image_data, 'raw')
+            image = Image.frombytes(immode, (imwidth,imheight), imdata, 'raw')
             arr = np.array(image)
 
             # no continua fins que es tanca el plot
@@ -86,4 +111,5 @@ while True:
         nextinstruction = True
     else:
         nextinstruction = False
+
 

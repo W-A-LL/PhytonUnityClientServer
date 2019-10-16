@@ -27,53 +27,10 @@ public class Actions : MonoBehaviour
         m_doingAction = false;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-    /*
-    public void HandleMessage(string message)
-    {
-        CultureInfo ci = (CultureInfo)CultureInfo.CurrentCulture.Clone();
-        ci.NumberFormat.CurrencyDecimalSeparator = ".";
-
-        string[] splittedStrings = message.Split(' ');
-        if (splittedStrings[0] == "move")
-        {
-            ActionMove(message);
-        }
-
-        return;
-    }
-
-
-
-    private void ActionMove(string message)
-    {
-
-        CultureInfo ci = (CultureInfo)CultureInfo.CurrentCulture.Clone();
-        ci.NumberFormat.CurrencyDecimalSeparator = ".";
-
-        string[] splittedStrings = message.Split(' ');
-        if (splittedStrings.Length != 4) return;
-
-        //splittedStrings[0] == "move
-        float x = float.Parse(splittedStrings[1], NumberStyles.Any, ci);
-        float y = float.Parse(splittedStrings[2], NumberStyles.Any, ci);
-        float z = float.Parse(splittedStrings[3], NumberStyles.Any, ci);
-
-        m_obj.transform.position = new Vector3(x, y, z);
-
-       
-
-    }
-    */
-
+  
     public void SetDoingAction(bool val)
     {
         m_doingAction = val;
-
     }
 
 
@@ -103,9 +60,25 @@ public class Actions : MonoBehaviour
 
 
         string[] splittedStrings = message.Split(' ');
-        if (splittedStrings[0] == "move")
+        if (splittedStrings[0] == "moveself")
         {
-           yield return StartCoroutine(ActionMove(message));  
+           yield return StartCoroutine(ActionMoveSelf(message));  
+        }
+        else if (splittedStrings[0] == "moveworld")
+        {
+            yield return StartCoroutine(ActionMoveWorld(message));
+        }
+        else if (splittedStrings[0] == "wait")
+        {
+            yield return StartCoroutine(ActionWait(message));
+        }
+        else if (splittedStrings[0] == "rotateself")
+        {
+            yield return StartCoroutine(ActionRotateSelf(message));
+        }
+        else if (splittedStrings[0] == "rotateworld")
+        {
+            yield return StartCoroutine(ActionRotateWorld(message));
         }
 
         Debug.Log("ACCIO ACABADA " + message);
@@ -117,7 +90,7 @@ public class Actions : MonoBehaviour
 
 
 
-    IEnumerator ActionMove(string message)
+    IEnumerator ActionMoveSelf(string message)
     {
 
         CultureInfo ci = (CultureInfo)CultureInfo.CurrentCulture.Clone();
@@ -126,19 +99,99 @@ public class Actions : MonoBehaviour
         string[] splittedStrings = message.Split(' ');
         if (splittedStrings.Length != 4) yield return null;
 
-        //splittedStrings[0] == "move
+        //splittedStrings[0] == "moveself
         float x = float.Parse(splittedStrings[1], NumberStyles.Any, ci);
         float y = float.Parse(splittedStrings[2], NumberStyles.Any, ci);
         float z = float.Parse(splittedStrings[3], NumberStyles.Any, ci);
 
-        m_obj.transform.position = new Vector3(x, y, z);
+        //m_obj.transform.position = new Vector3(x, y, z);
+        Vector3 pos = m_obj.transform.position;
+        m_obj.transform.position =  new Vector3(pos.x+x, pos.y+y, pos.z+z);
 
-        yield return new WaitForSeconds(1.0f);
-       
+        //yield return new WaitForSeconds(1.0f);
+
     }
 
-    
-    
+
+    IEnumerator ActionMoveWorld(string message)
+    {
+
+        CultureInfo ci = (CultureInfo)CultureInfo.CurrentCulture.Clone();
+        ci.NumberFormat.CurrencyDecimalSeparator = ".";
+
+        string[] splittedStrings = message.Split(' ');
+        if (splittedStrings.Length != 4) yield return null;
+
+        //splittedStrings[0] == "moveworld
+        float x = float.Parse(splittedStrings[1], NumberStyles.Any, ci);
+        float y = float.Parse(splittedStrings[2], NumberStyles.Any, ci);
+        float z = float.Parse(splittedStrings[3], NumberStyles.Any, ci);
+
+        //m_obj.transform.position = new Vector3(x, y, z);
+        Vector3 pos = m_obj.transform.position;
+        m_obj.transform.position = new Vector3(x, y, z);
+
+        //yield return new WaitForSeconds(1.0f);
+
+    }
+
+
+    IEnumerator ActionWait(string message)
+    {
+
+        CultureInfo ci = (CultureInfo)CultureInfo.CurrentCulture.Clone();
+        ci.NumberFormat.CurrencyDecimalSeparator = ".";
+
+        string[] splittedStrings = message.Split(' ');
+        if (splittedStrings.Length != 2) yield return null;
+
+        //splittedStrings[0] == "wait
+        float x = float.Parse(splittedStrings[1], NumberStyles.Any, ci);
+        yield return new WaitForSeconds(x);
+
+    }
+
+
+
+    IEnumerator ActionRotateSelf(string message)
+    {
+
+        CultureInfo ci = (CultureInfo)CultureInfo.CurrentCulture.Clone();
+        ci.NumberFormat.CurrencyDecimalSeparator = ".";
+
+        string[] splittedStrings = message.Split(' ');
+        if (splittedStrings.Length != 4) yield return null;
+
+        //splittedStrings[0] == "rotateworld
+        float x = float.Parse(splittedStrings[1], NumberStyles.Any, ci);
+        float y = float.Parse(splittedStrings[2], NumberStyles.Any, ci);
+        float z = float.Parse(splittedStrings[3], NumberStyles.Any, ci);
+
+        m_obj.transform.Rotate(x, y, z, Space.Self);
+
+    }
+
+
+    IEnumerator ActionRotateWorld(string message)
+    {
+
+        CultureInfo ci = (CultureInfo)CultureInfo.CurrentCulture.Clone();
+        ci.NumberFormat.CurrencyDecimalSeparator = ".";
+
+        string[] splittedStrings = message.Split(' ');
+        if (splittedStrings.Length != 4) yield return null;
+
+        //splittedStrings[0] == "rotateself
+        float x = float.Parse(splittedStrings[1], NumberStyles.Any, ci);
+        float y = float.Parse(splittedStrings[2], NumberStyles.Any, ci);
+        float z = float.Parse(splittedStrings[3], NumberStyles.Any, ci);
+
+        m_obj.transform.Rotate(x, y, z, Space.World);
+
+    }
+
+
+
 }
 
 
