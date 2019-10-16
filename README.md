@@ -33,3 +33,9 @@ Load Unity project and run SampleSceneWorld scene
     
 ToDo list (needs to be fixed):
 - returned image is y-flipped
+
+
+Related projects:
+https://github.com/valkjsaaa/Unity-ZeroMQ-Example
+https://github.com/off99555/Unity3D-Python-Communication
+ 
